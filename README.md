@@ -1,17 +1,8 @@
 # **Cloud Native Resource Monitoring Python App on K8s!**
 
-## Highlights 🤯
+## Introduction
+A Python monitoring application utilizing Flask and psutil, providing invaluable insights into system performance. The application's Docker image is crafted through a Dockerfile, and leveraging the Boto3 module, this image is securely pushed to the Elastic Container Registry (ECR) repository. The deployment of this application on Amazon Elastic Kubernetes Service (EKS) is achieved through a Python script, utilizing an EKS cluster and nodegroups for efficient orchestration.
 
-1. Monitoring Application in Python using Flask and psutil
-2. Run a Python App locally.
-3. Containerize a Python application using Docker
-    1. Creating Dockerfile
-    2. Building DockerImage
-    3. Running Docker Container
-    4. Docker Commands
-4. Creating ECR repository using Python Boto3 and pushing Docker Image to ECR
-5. Using Kubernetes and Create EKS cluster and Nodegroups in AWS
-6. Creating Kubernetes Deployments and Services using Python!
 
 ## **Part 1: Deploying the Flask application locally**
 
@@ -111,3 +102,6 @@ Once your pod is up and running, run the port-forward to expose the service
 ```bash
 kubectl port-forward service/<service_name> 5000:5000
 ```
+## Author
+
+- [@amantamboli](https://amantamboli.github.io/portfolio/)
