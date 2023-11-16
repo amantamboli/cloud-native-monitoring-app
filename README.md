@@ -1,5 +1,10 @@
 # **Cloud Native Resource Monitoring Python App on K8s!**
 
+## Project Structure
+
+![App Screenshot](https://raw.githubusercontent.com/amantamboli/portfolio/master/assets/img/devpos/monitoring.png)
+
+
 ## Introduction
 A Python monitoring application utilizing Flask and psutil, providing invaluable insights into system performance. The application's Docker image is crafted through a Dockerfile, and leveraging the Boto3 module, this image is securely pushed to the Elastic Container Registry (ECR) repository. The deployment of this application on Amazon Elastic Kubernetes Service (EKS) is achieved through a Python script, utilizing an EKS cluster and nodegroups for efficient orchestration.
 
